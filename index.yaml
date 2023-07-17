@@ -2,13 +2,23 @@ apiVersion: v1
 entries:
   nginx:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-07-17T20:36:14.511492127+02:00"
+    appVersion: 1.16.1
+    created: "2023-07-17T21:08:28.135990743+02:00"
     description: A Helm chart for Kubernetes
-    digest: 20c04df8a356a73edf0c8554a4c663135b05a5df91ddee1865ec7aeefd41081f
+    digest: e679c777c927a79b3ebadf49bf20e2520817054958267ca3bad4374b4104c5e9
+    name: nginx
+    type: application
+    urls:
+    - https://github.com/mexersus/helm/nginx-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2023-07-17T21:08:28.135182667+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 349d18071f81a45b3264cf855f3b5c2a72d2a6e78f8f56b7da54148425f6b8c4
     name: nginx
     type: application
     urls:
     - https://github.com/mexersus/helm/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-17T20:36:14.510930705+02:00"
+generated: "2023-07-17T21:08:28.134044573+02:00"
